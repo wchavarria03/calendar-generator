@@ -5,8 +5,14 @@
   <title>Calendar</title>
 </head>
 <body>
+  <form onSubmit="return my_Calendar.initCalendars()">
+    <label for="startDateInput">Start Date:</label><input id="startDateInput" type="date"/><br>
+    <label for="numberOfDaysInput">Number of days:</label><input id="numberOfDaysInput" type="number" min="1"/><br>
+    <label for="countryCodeInput">Country Code:</label><input id="countryCodeInput" type="text"/><br>
+    <input type="submit" value="Proceed"/>
+  </form>
   <div id="calendars">
-
+    
   </div>
   <script src="public/my-calendar.js"></script>
 </body>
