@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "repository": "https://github.com/wchavarria03/calendar-generator",
+  "author": "Walter Chavarria <wchavarria03@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2"
